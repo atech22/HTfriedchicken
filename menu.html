@@ -1,44 +1,149 @@
-var main = function() {
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="grid.css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+  <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="quick-links">
+     <a href="https://www.google.com/maps/dir//25+E+Washington+Ave,+Washington,+NJ+07882/@40.7533315,-75.025704
+     1,14z/data=!4m16!1m7!3m6!1s0x89c477e5fd9b606b:0xbaee66e0a368223f!2s25+E+Washington+Ave,+Washington,+NJ+078
+     82!3b1!8m2!3d40.7582259!4d-74.9788114!4m7!1m0!1m5!1m1!1s0x89c477e5fd9b606b:0xbaee66e0a368223f!2m2!1d-74.97
+     88114!2d40.7582259/">
+    <div class="button-nav"><h1>Directions</h1></a>
+    </div>
+     <a href="tel:+9086891234">
+    <div class="button-call"><h1>Call</h1></a>
+    </div>
+  </div>
+     
+     
+<div class="menu">
+    <figure class="col-100 item-title">
+    </figure>
+</div>
+
+<div class"quick-links">
+  <div class="rowcontainer">
+
+   <div class="col-100 row-container">
+    <div class="col-30 home-holder">
+    <a href="index.html"> Home</a>
+    </div>
+    <div class="col-35 menu-holder">
+    <a href="menu.html"> Menu</a>
+    </div>
+    <div class="col-35 contact-us-holder">  
+    <a href="Contact_Us.html"> Contact Us</a>
+    </div>
+   </div>
+  </div>
+</div>
+
+<div class="col-100 nav-wrapper">
+  <ul class="nav-menu">
+<li class="col-20 dropdown1"><h4>Home Town Originals</h4>
+      <ul class="dropnav1">
+        <li>The Hometown ($5.95)
+          <p>Fried chicken sandwich, melted mozzarella, pickles, tomato, mayo, served on a toasted brioche</p>
+        </li>
+        <li>The Hum Hum ($5.95)
+          <p>Grilled chicken sandwich, melted peper jack, jalapeno pepers, Hum Hum sauce, served on a toasted brioche</p>
+        </li>
+        <li>MJ's chicken cheesesteak ($5.95)
+          <p>With the works served on a sub roll</p>
+        </li>
+        <li>Q's cuties ($3.99)
+          <p>Two mini chicken tender sandwiches, pickles, mayo, served on dinner roll</p>
+        </li>
+        <li>Seafood Po'boy ($6.95)
+          <p>Popcorn shrimp Or white fish, lettuce, tomato, tartar sauce, served on sub roll</p>
+          </li>
+      </ul>
+    </li>
+      
+
+
+    <li class="col-20 dropdown2"><h4>Home Town Originals</h4>
+      <ul class="dropnav2">
+        <li>Hometown bowl ($3.99)
+          <p>Chicken poppers, mashed potatoes, corn, gravy, cheddar cheese served in a bowl</p>
+        </li>
+        <li>Shrimp poppers
+          <p>Small ($3.95) or Large ($7.95)</p>
+        </li>
+        <li>Chicken poppers
+          <p>Small ($3.95) or Large ($7.95)</p>
+        </li>
+        <li>Chicken tenders
+          <p>3pc ($3.49) 5pc ($5.49) 9pc ($9.49)</p>
+        </li>
+      </ul>
+    </li>
+      
+    <li class="col-20 dropdown3"><h4>Sauces & Wings</h4>
+      <ul class="dropnav3">
+        <li>Hum Hum sauce</li>
+        <li>BBQ</li>
+        <li>Ranch</li>
+        <li>Buffalo sauce</li>
+        <li>Tartar</li>
+        <li>Cocktail</li>
+                <li><h3>Chicken wings</h3>
+          <p>Traditional Or boneless</p>
+          <p>Plain, BBQ, mild Buffalo, HOT Buffalo, Hometown's hottest, Also ask about our wing flavor of the month</p>
+          <p>8pc ($6.99) 16pc ($13.99) 24pc ($20.99) 48pc ($38.95)</p>
+        </li>
+      </ul>
+    </li>
+      
+    <li class="col-20 dropdown4"><h4>Sides</h4>
+      <ul class="dropnav4">
+        <li>Add side and drink for only $2.99</li>
+        <li>Green beans</li>
+        <li>Coleslaw</li>
+        <li>Mac"n"Cheese</li>
+        <li>Mashed potatoes</li>
+        <li>Wedges</li>
+        <li>Corn</li>
+        <li>gravy</li>
+        <li>Biscuits
+          <p>2 for ($1.49)</p>
+        </li>
+        <li>Rice</li>
+      </ul>
+    </li>
+      
+    <li class="col-20 dropdown5"><h4>Desserts</h4>
+      <ul class="dropnav5">
+        <li>($2.49)</li>
+        <li>Apple pie</li>
+        <li>Key lime pie</li>
+        <li>Chocolate pudding</li>
+        <li>($.99)</li><li>Chocolate chip cookie</li>
+        
+      </ul>
+    </li> 
+  </ul>
   
-  $('.arrow-next').click(function() {
-    var currentSlide = $('.active-slide');
-    var nextSlide = currentSlide.next();
+</div>
 
-    var currentDot = $('.active-dot');
-    var nextDot = currentDot.next();
-
-    if(nextSlide.length == 0) {
-      nextSlide = $('.slide').first();
-      nextDot = $('.dot').first();
-    }
+          
     
-    currentSlide.fadeOut(600).removeClass('active-slide');
-    nextSlide.fadeIn(600).addClass('active-slide');
-
-    currentDot.removeClass('active-dot');
-    nextDot.addClass('active-dot');
-  });
-
-
-  $('.arrow-prev').click(function() {
-    var currentSlide = $('.active-slide');
-    var prevSlide = currentSlide.prev();
-
-    var currentDot = $('.active-dot');
-    var prevDot = currentDot.prev();
-
-    if(prevSlide.length === 0) {
-      prevSlide = $('.slide').last();
-      prevDot = $('.dot').last();
-    }
+<div class="col-100 footer">
+  <div class="col-75 social">
+  </div>
     
-    currentSlide.fadeOut(600).removeClass('active-slide');
-    prevSlide.fadeIn(600).addClass('active-slide');
-
-    currentDot.removeClass('active-dot');
-    prevDot.addClass('active-dot');
-  });
-
-}
-
-$(document).ready(main);
+  <figure class="col-25 aboutcreator">
+  <h6>Website created & developed by David Garibaldi</h6>
+  <h6>Contact: d.ch.garibaldi@gmail.com</h6>
+  </figure>
+</div>
+  </body>
+  
+</html>
