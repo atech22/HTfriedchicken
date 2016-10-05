@@ -140,12 +140,14 @@ background-color:inherit;
   
 }
 .email-title{
+  margin-top:5%;
   text-align: center;
   color:white;
   font-family: fantasy;
   font-style: oblique;
 }
 .phone-title{
+  margin-top:5%;
    text-align: center;
   color:white;
   font-family: fantasy;
