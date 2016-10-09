@@ -76,6 +76,7 @@ border-top-style:outset;
 }
 .wrapper{
   background-color:black;
+  padding-left:5%;
 }
 .picturesframe{
 display:block;
