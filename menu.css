@@ -80,7 +80,13 @@ border-top-style:outset;
     background-size: cover;
       background-image:url(http://media.istockphoto.com/photos/red-picnic-cloth-on-wooden-backgroundnapkin-tablecloth-on-old-wood-picture-id500591460?k=6&m=500591460&s=170667a&w=0&h=IKroI2LnEgavg-aXO9m6uAhLhkEguv03OHXxcYgruyg=);
         background-position:100% 50%;
-
+  .img1{
+  width:100%;
+    position: relative;
+  }
+  
+  
+  
 .social a{
   text-decoration: none;
 }
