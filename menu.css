@@ -80,8 +80,7 @@ border-top-style:outset;
 }
 .picturesframe{
 display:block;
-  position:relative;
-  padding-left:18.5%;
+  object-position:25% 25%;
 }
 
   
