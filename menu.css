@@ -79,6 +79,8 @@ border-top-style:outset;
 }
 .picturesframe{
 display:block;
+  border-bottom-style:inset;
+  border-top-style:inset;
 
 }
 
