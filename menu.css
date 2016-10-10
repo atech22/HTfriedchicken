@@ -80,6 +80,7 @@ border-top-style:outset;
 }
 .picturesframe{
 left:50%;
+display:inline-block;
 }
   
   
