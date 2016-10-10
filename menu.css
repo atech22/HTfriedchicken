@@ -79,7 +79,11 @@ border-top-style:outset;
 
 }
 
-  
+.picturesframe{
+display:block;
+  border-bottom-style:outset;
+  border-top-style:inset;
+ 
   
   
 .social a{
