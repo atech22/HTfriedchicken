@@ -120,7 +120,7 @@ margin-bottom:2%;
   top:30%;
 }
 .slide {
-  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+
   background-size: cover;
   display: none;
   position: absolute;
