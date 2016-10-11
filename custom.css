@@ -37,7 +37,7 @@ background:black;
   border-left-style:outset;
 }
 .menu{
-
+  padding-top:50px;
   background-color:black;
 }
 .banner{
@@ -69,7 +69,7 @@ font-size: 14px;
 font-family: fantasy;
 font-style: oblique;
 margin-top:2%;
-margin-bottom:2%;
+
 }
 .row-container{
   color:white;
