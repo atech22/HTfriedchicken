@@ -115,6 +115,10 @@ margin-top:2%;
       background-position:70% 80%;
   border-bottom: 1px solid #ddd;
 }
+.anouncement{
+  color:gold;
+}
+
 .slider h1{
     text-align:center;
   font-size:45px;
