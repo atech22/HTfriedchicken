@@ -54,7 +54,7 @@ height:100px;
   width:100%;
   background-color:black;
   text-align: center;
-  border-bottom-style: inset;
+  border-bottom-style: outset;
 }
 .rowcontainer a {
   text-align: center;
